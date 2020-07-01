@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
 	System.out.println("ex1");
         int a=3;
 	int b=5;
@@ -19,5 +20,9 @@ public class Main {
         int d=123456;
         System.out.println(d);
 
+=======
+        System.out.println("st");
+        System.out.println("ssss");
+>>>>>>> e9d97c72321f510cf110f8f4bd81468ab432f9c0
     }
 }
