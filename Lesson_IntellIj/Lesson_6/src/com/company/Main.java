@@ -8,20 +8,15 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         int i=scan.nextInt();
         int max = 1;
-/*while (i!=0){
+while (i!=0){
     if (i>max){
         max=i;
     }
     i=scan.nextInt();
 }
-        System.out.println(max);
-*/
-do{
-    max=scan.nextInt();
-}while(i!=0);
-        System.out.println(max);
+System.out.println(max);
 
-        /*
+
         System.out.println("ex.2");
 
         int s=scan.nextInt();
@@ -32,11 +27,14 @@ do{
             }
         }
 
+
+
+        System.out.println("ex.3");
         int g=1;
         int h=-4;
         String z= g>h?"Yes":"No";
         System.out.println(z);
 
-         */
+
     }
 }
