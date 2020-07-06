@@ -35,6 +35,10 @@ public class Main {
 
         }
         System.out.println("ex.3");
+        
+        
+        
+        
         System.out.println("ex.4");
         String s = "gryffindor";
         if (s == "gryffindor") {
