@@ -52,6 +52,10 @@ public class Main {
         } else {
             System.out.println("not a valid case");
         }
+
+
+
+        System.out.println("ex5.");
         String s1 = "move ";
         int i1 = sc.nextInt();
         switch (i1) {
@@ -74,13 +78,13 @@ public class Main {
         System.out.println(s1);
 
 
-        System.out.println("ex5.");
+
 
 
 
         
 
-        System.out.println("ex.6");
+        System.out.println("ex.7");
         int q=8;
         if ( q %3 ==0){
             System.out.println("Fizz");
@@ -90,11 +94,15 @@ public class Main {
             System.out.println("FizzBuzz");
         }
 
-        System.out.println("ex.7");
-
-
-
         System.out.println("ex.8");
+
+           int a=1, b=3;
+            int sum=a*b;
+            while(a<b){
+
+            }
+
+        System.out.println("ex.9");
 
         int p;
       do{
@@ -103,7 +111,7 @@ public class Main {
       }while (p!=0);
 
 
-        System.out.println("ex.9");
+        System.out.println("ex.10");
 
 
         int N=0, M=1;
@@ -112,5 +120,21 @@ public class Main {
             M++;
             N+=M;
             }
+
+
+
+
+        System.out.println("ex.11");
+
+        System.out.print("Hello, ");//comment
+        System.out.print("world ");//comment
+        System.out.print("and ");//coomit
+        System.out.print("java.");//comit
+
+
+        System.out.println("ex.12");
+        //The restriction: the class should have the name MAIN
+        //THE start point of your program
+        System.out.println("It compiles");//it prints "It compiles"
     }
 }
