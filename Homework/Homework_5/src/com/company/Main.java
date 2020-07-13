@@ -86,12 +86,12 @@ public class Main {
 
         System.out.println("ex.7");
         int q=8;
-        if ( q %3 ==0){
-            System.out.println("Fizz");
+        if (q%5 ==0 && q%3==0){
+            System.out.println("FizzBuzz");
         } else if (q%5==0){
             System.out.println("Buzz");
-        } else if (q/5 ==0 && q/3==0){
-            System.out.println("FizzBuzz");
+        } else if ( q %3 ==0){
+            System.out.println("Fizz");
         }
 
         System.out.println("ex.8");

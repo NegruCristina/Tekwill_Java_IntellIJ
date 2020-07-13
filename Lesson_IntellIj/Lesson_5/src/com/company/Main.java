@@ -1,4 +1,3 @@
-
 package com.company;
 
 import java.util.Scanner;
@@ -6,25 +5,35 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	Scanner scanner = new Scanner(System.in);
-          String name=scanner.nextLine();
-        System.out.println("Now,your age please");
-        int age =scanner.nextInt();
-        System.out.println("hi, mye nam is "+ name + "!");
-        System.out.println("i`s "+ age + "years old");
+        Scanner scan = new Scanner(System.in);
+        int i=scan.nextInt();
+        int max = 1;
+while (i!=0){
+    if (i>max){
+        max=i;
+    }
+    i=scan.nextInt();
+}
+System.out.println(max);
 
-        Scanner sc =new Scanner(System.in);
-        int n=sc.nextInt();
-        System.out.println(((n+1)*n+2)*n+3);
-        Scanner scc =new Scanner(System.in);
-double m=scc.nextDouble();
-        System.out.println(Math.pow(m, 3)+m+1);
 
-      Scanner s= new Scanner(System.in);
-      int x=s.nextInt();
-      int z=s.nextInt();
-      int q=s.nextInt();
-        System.out.println(z+x==20 || x+q==20 || z+q==20  );
+        System.out.println("ex.2");
+
+        int s=scan.nextInt();
+        int max1=1000;
+        while(s!=0){
+            if (s>max1){
+               s-=1000;
+            }
+        }
+
+
+
+        System.out.println("ex.3");
+        int g=1;
+        int h=-4;
+        String z= g>h?"Yes":"No";
+        System.out.println(z);
 
 
     }
