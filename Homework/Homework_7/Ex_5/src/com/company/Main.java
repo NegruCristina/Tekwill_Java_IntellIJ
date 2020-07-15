@@ -8,16 +8,26 @@ public class Main {
         String word1 = sc.nextLine();
 
 
-        int count = 0;
-//numaram de cite ori cuvintul word1 se contine in cuvintul word
-        for (int i = 0; i < word1.length(); i++) {
-            //verificam daca word1 se contine in word
-            if (word1.contains(word)){
-                //daca se indeplineste conditia se incrementeza
-                count++;
+        int count =0;
+        int count1=0;
+
+        for (int i = 0; i < word.length(); i++) {
+//aici se verifica daca litera 1 din cuvintul word este egala cu litera 1 din cuvintul word1
+            if (word.charAt(i) == word1.charAt(count1)){
+                //daca sunt egale se incrementeaza la contorul al 2-lea
+                count1++;
+                //se verifica care este lungimea cuvintului 2 pentru a se verifica toate literele aparte
+                if(count1==word1.length()) {
+                    //la primul contor se incrementeaza
+                    count++;
+                    //daca literele sunt diferite contorul 2 se face 0
+                    count1 = 0;
+                }
+            }
+            else {
+                count1++;
             }
         }
         System.out.println(count);
     }
 }
-//nu merge rezultatul

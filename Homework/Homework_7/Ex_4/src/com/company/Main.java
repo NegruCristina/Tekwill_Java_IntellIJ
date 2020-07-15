@@ -11,9 +11,11 @@ public class Main {
 	public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	String data=sc.nextLine();
-	String data1=sc.nextLine();
 
-	System.out.println(data.replace(data, data1));
+    String[] dataAray=data.split("-");
+
+        String newDate=dataAray[1]+"/"+dataAray[2]+"/"+dataAray[0];
+    	System.out.println(newDate);
 
 	/*solutie din internet
 		Date data=new Date();
