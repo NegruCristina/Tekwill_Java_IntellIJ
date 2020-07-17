@@ -8,10 +8,8 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         String date=sc.nextLine();
         String[] dateAray=date.split("-");
-        String bara="/";
-        String bara1="/";
-        String bara2="/";
-        String finalDate=dateAray[1]+String.format("%s",bara)+ dateAray[2] +String.format("%s",bara1) +dateAray[0] +String.format("%s",bara2);
-       s System.out.println(finalDate);
+
+        String finalDate=String.format("%s/%s/%s",dateAray[1], dateAray[2],dateAray[0]);
+        System.out.println(finalDate);
     }
 }
