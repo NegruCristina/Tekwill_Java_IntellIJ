@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc97de4-f17a-48fc-8aa3-bab8956c20ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_5/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_5/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_5/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_5/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_6/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_6/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_6/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_6/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_6/Lesson_6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_6/out/production/Lesson_6/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_6/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_6/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_7/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_7/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_7/Lesson_7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lesson_7/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson_7/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Homework/Homeword_7v2/Ex_2/Ex_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_1/Ex_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_1/Ex_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_2/Ex_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_2/Ex_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_3/Ex_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_3/Ex_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_3/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_4/Ex_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_4/Ex_4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_4/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_4/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_5/Ex_5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_5/Ex_5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_5/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework/Homework_7/Ex_5/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +27,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Lesson_8" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <module name="Lesson_7v2" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -61,10 +57,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1594563412410">
+    <state x="380" y="0" width="619" height="728" key="#Main" timestamp="1594788538090">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594563412410" />
+    <state x="380" y="0" width="619" height="728" key="#Main/0.0.1366.728@0.0.1366.728" timestamp="1594788538090" />
+    <state x="462" y="104" key="FileChooserDialogImpl" timestamp="1594657761028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594657761028" />
     <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1594563430009">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -81,10 +81,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1594563430009" />
-    <state x="65" y="0" key="new project wizard" timestamp="1594563427564">
+    <state x="65" y="0" key="new project wizard" timestamp="1594788895832">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594563427564" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1594788895832" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lesson_8$Main.ic" NAME="Main Coverage Results" MODIFIED="1594561177694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
