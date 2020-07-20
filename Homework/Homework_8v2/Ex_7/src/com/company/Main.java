@@ -16,7 +16,6 @@ public class Main {
     }
     public static void sort(int[] numbers){
        Arrays.sort(numbers);
-         return;
 
     }
 }

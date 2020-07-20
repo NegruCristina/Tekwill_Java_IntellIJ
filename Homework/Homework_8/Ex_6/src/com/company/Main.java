@@ -16,12 +16,12 @@ public class Main {
                 break;
             case "int":
                 int intVal=Integer.parseInt(sc.nextLine());
-                int intResult=(int) getMaxMinusCurrent(intVal);
+                int intResult= getMaxMinusCurrent(intVal);
                 System.out.println(intResult);
                 break;
             case"short":
                 short shortVal=Short.parseShort(sc.nextLine());
-                short shortResult=(short) getMaxMinusCurrent(shortVal);
+                short shortResult= getMaxMinusCurrent(shortVal);
                 System.out.println(shortResult);
                 break;
             default:
@@ -30,11 +30,12 @@ public class Main {
         }
     }
     public static long getMaxMinusCurrent(long val){
-        for(long l:getMaxMinusCurrent(val)) {
-            if (l < Long.MAX_VALUE)
                 return Long.MAX_VALUE - val;
         }
-        for()
+    public static int getMaxMinusCurrent(int val){
+        return Integer.MAX.VALUE - val;
+    }
+    public static short getMaxMinusCurrent( short val){
+        return (short) (Short.MAX_VALUE - val);
     }
 }
-//nu am facut

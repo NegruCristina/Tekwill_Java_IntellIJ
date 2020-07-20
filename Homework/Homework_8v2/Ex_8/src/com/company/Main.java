@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Main {
 public static void addValueByIndex(long[] array, int index, long value){
     array[index]+=value;
-return;
 
 }
 
