@@ -5,10 +5,9 @@ import java.util.Optional;
 public class Main {
 
     public static void main(String[] args) {
-//        Account account = new Account("acc", 202058877, owner);
-//        User owner = new User("user", "Cristina", "Negru");
-//        Account account1 = account;
-//        System.out.println(process(account1));
+        User owner = new User("user", "Cristina", "Negru");
+        Account account = new Account("acc", 202058877, owner);
+        process(account);
 
 
     }
@@ -36,21 +35,26 @@ public class Main {
             return owner;
         }
     }
+
     static class User {
         private String login;
         private String firstName;
         private String lastName;
+
         public User(String login, String firstName, String lastName) {
             this.login = login;
             this.firstName = firstName;
             this.lastName = lastName;
         }
+
         public String getLogin() {
             return login;
         }
+
         public String getFirstName() {
             return firstName;
         }
+
         public String getLastName() {
             return lastName;
         }

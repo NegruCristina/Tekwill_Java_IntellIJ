@@ -18,10 +18,10 @@ public class Main {
 
     public static String prepareFullName(String firstName, String lastName){
 
-        if ("null".equals(firstName)) {
+        if ("null".equals(firstName).split()) {
             return firstName;
         }
-     else if ("null".equals(lastName)){
+     else if ("null".equals(lastName).split()){
             return lastName;
         }
      else {
