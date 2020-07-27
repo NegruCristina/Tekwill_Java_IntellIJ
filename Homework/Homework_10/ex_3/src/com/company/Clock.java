@@ -17,7 +17,7 @@ public class Clock {
         return String.format("%02d:%02d", hours, minutes);
     }
 
-    //
+    // nu merge programul nu se incrementeaza
     public void next() {
         for (int i = 0; i >= this.hours; i++) {
             System.out.println(hours);
@@ -26,5 +26,5 @@ public class Clock {
             }
         }
     }
-// nu merge programul nu se incrementeaza 
+
 }
