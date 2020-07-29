@@ -23,9 +23,9 @@ prin metoda Random care genereaza o cifra intr-o pozitie, apoi cu metoda printga
             Scanner sc = new Scanner(System.in);
             int playersPos = sc.nextInt();
             players(game, playersPos, "player1");
-            players(game, playersPos, "comp");
-            Random random = new Random();
-            int player2Pos = random.nextInt(9) + 1;
+           // players(game, playersPos, "comp");
+          //  Random random = new Random();
+            int player2Pos = sc.nextInt();
             players(game, player2Pos, "player2");
             printGame(game);
         }

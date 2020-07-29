@@ -8,22 +8,21 @@ public class User {
         this.firstName = "";
         this.lastName = "";
     }
-public User(String firstName, String lastName){
-        this.firstName="Unknown";
-        this.lastName="Unknown";
-}
 
-    public void setFirstName(String firstName){
-        if(firstName==null){
-            firstName.split("");
-        }
+    public User(String firstName, String lastName) {
+        this.firstName = "Unknown";
+        this.lastName = "Unknown";
     }
-    public void setLastName(String lastName){
-        if(lastName==null){
-            lastName.split("");
-        }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName == null ? "" : firstName;
     }
-    public String getFullName(){
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName == null ? "" : lastName;
+    }
+
+    public String getFullName() {
         return firstName.concat(lastName);
     }
 }

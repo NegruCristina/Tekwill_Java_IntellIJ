@@ -3,11 +3,11 @@ package com.company;
 public class Counter {
     private int current;
 
-
-    public void inc(int current) {
-        for (int i = 0; i < current; i++) {
-            this.current = current + 1;
-        }
+public Counter(int current){
+    this.current=current;
+}
+    public void inc() {
+            current ++;
     }
 
 

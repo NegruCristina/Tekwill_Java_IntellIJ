@@ -14,15 +14,17 @@ public class Clock {
 
     //ii dam un format de ceas la Clock
     public String clock() {
-        return String.format("%02d:%02d", hours, minutes);
+    return String.format("%02d:%02d", hours, minutes);
     }
 
-    // nu merge programul nu se incrementeaza
+
     public void next() {
-        for (int i = 0; i >= this.hours; i++) {
-            System.out.println(hours);
-            for (int j = 0; j >= this.minutes; j++) {
-                System.out.println(minutes++);
+        minutes++;
+        if(minutes==60){
+            minutes=0;
+            hours++;
+            if(hours==13){
+                hours=1;
             }
         }
     }

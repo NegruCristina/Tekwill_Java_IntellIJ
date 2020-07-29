@@ -9,8 +9,8 @@ public class Main {
         System.out.println(user.getFullName());
 
         User user1 = new User();
-        user1.setLastName("null");
+        user1.setLastName(null);
         user1.setFirstName("Tom");
-        System.out.println(user.getFullName());
+        System.out.println(user1.getFullName());
     }
 }
