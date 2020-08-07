@@ -18,5 +18,9 @@ public class Cat {
 
         return counter;
 }
+
+public String toString(){
+     return    name + " " + age;
+}
     }
 
