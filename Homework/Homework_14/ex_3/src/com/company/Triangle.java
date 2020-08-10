@@ -15,7 +15,7 @@ public class Triangle extends Shape {
 
     @Override
     public double getPerimeter() {
-        return p = a + b + c;
+        return p = (a + b + c)/2;
     }
 
     @Override
