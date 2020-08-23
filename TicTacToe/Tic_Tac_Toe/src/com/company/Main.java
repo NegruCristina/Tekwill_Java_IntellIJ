@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Random;
 import java.util.Scanner;
 
 import static com.company.Players.players;
@@ -9,11 +8,11 @@ import static com.company.Winer.winer;
 public class Main {
     //facem un aray bi-dimensional, prin parti si lateral adaugam simboluri ca in ex.2
     public static void main(String[] args) {
-        char[][] game = {{'_', '_', '_', '_', '_'},
-                {'|', ' ', ' ', ' ', '|'},
-                {'|', ' ', ' ', ' ', '|'},
-                {'|', ' ', ' ', ' ', '|'},
-                {'_', '_', '_', '_', '_'}
+        String[][] game = {{"_", "_", "_", "_", "_"},
+                {"|", " ", " ", " ", "|"},
+                {"|", " ", " ", " ", "|"},
+                {"|", " ", " ", " ", "|"},
+                {"_", "_", "_", "_", "_"}
         };
 boolean gameOver=false;
 
@@ -23,15 +22,18 @@ boolean gameOver=false;
  cu ajutorul clasei winer verificam cine a cistigat in depedenta cine si unde a introdus valori */
 
         while (!gameOver) {
+            printGame(game);
+
             Scanner sc = new Scanner(System.in);
-            int playersPos = sc.nextInt();
+            String playersPos = sc.nextLine();
             players(game, playersPos, "player1");
             gameOver=winer(game);
             if(gameOver){
                 break;
             }
+            printGame(game);
 
-            int player2Pos = sc.nextInt();
+            String player2Pos = sc.nextLine();
             players(game, player2Pos, "player2");
             gameOver=winer(game);
             if(gameOver){
