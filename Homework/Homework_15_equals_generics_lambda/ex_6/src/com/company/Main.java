@@ -12,14 +12,14 @@ public class Main {
         int[] array = Arrays.stream(scanner.nextLine().split(" "))
                 .mapToInt(Integer::parseInt)
                 .toArray();
-        BiFunction<Integer, Integer, Integer> comparator = null;
-if(isAscending==true) {
-      Arrays.sort(array);
-}else
-    sort(array, comparator);
+        BiFunction<Integer, Integer, Integer> comparator = (x, y) -> isAscending ? Math.min(x, y) : Math.max(x, y);
+
+
+        sort(array, comparator);
 
         Arrays.stream(array).forEach(e -> System.out.print(e + " "));
     }
+
     public static void sort(int[] array, BiFunction<Integer, Integer,
             Integer> comparator) {
         for (int i = 0; i < array.length - 1; i++) {

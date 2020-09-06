@@ -11,10 +11,13 @@ public class Main {
         try {
             methodThrowingExceptions();
         }catch(ArrayIndexOutOfBoundsException | NumberFormatException a){
-            if(a.getClass().equals("ArrayIndexOutOfBoundsException")){
-                System.out.println("ArrayIndexOutOfBoundsException");
-            }else if(a.getClass().equals("NumberFormatException"))
-                System.out.println("NumberFormatException");
+            //varianta mentor
+            System.out.println(a.getClass().getSimpleName());
+            //varianta mea
+//            if(a.getClass().equals("ArrayIndexOutOfBoundsException")){
+//                System.out.println("ArrayIndexOutOfBoundsException");
+//            }else if(a.getClass().equals("NumberFormatException"))
+//                System.out.println("NumberFormatException");
         }
     }
     public static void main(String[] args) {

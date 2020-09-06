@@ -14,6 +14,9 @@ public class Main {
         }
     }
     public static double sqrt(double x) throws IllegalArgumentException{
-        throw new IllegalArgumentException("Expected non-negative number, got ?"+ " IllegalArgumentException");
+        if(x<0) {
+            throw new IllegalArgumentException("Expected non-negative number, got ?" + x);
+        }
+        return Math.sqrt(x)
     }
 }
